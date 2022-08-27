@@ -56,11 +56,11 @@ export const UssFileDefinition: ICommandDefinition = {
     examples: [
         {
             description: strings.ACTIONS.USS_FILE.EXAMPLES.EX1,
-            options: `"/u/**/**/*.ext" "/u/**/**/*.ext"`
+            options: `"/u/users/file.txt" "/u/users/file.txt"`
         },
         {
             description: strings.ACTIONS.USS_FILE.EXAMPLES.EX2,
-            options: `"/u/**/**/*.ext" "/u/**/**/*.ext" --no-seqnum`
+            options: `"/u/users/file.txt" "/u/users/file.txt" --no-seqnum`
         }
     ]
 };

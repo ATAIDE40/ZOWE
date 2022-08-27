@@ -719,8 +719,8 @@ export default {
                     USSFILEPATH2: "The path of the second uss file you want to compare."
                 },
                 EXAMPLES: {
-                    EX1: `Compare the contents of the uss file "/u/**/**/*.ext" and "/u/**/**/*.ext"`,
-                    EX2: `Compare the contents of the uss file "/u/**/**/*.ext" and "/u/**/**/*.ext" without sequence numbers`
+                    EX1: `Compare the contents of the uss file "/u/users/file.txt" and "/u/users/file.txt"`,
+                    EX2: `Compare the contents of the uss file "/u/users/file.txt" and "/u/users/file.txt" without sequence numbers`
                 }
             },
         },
